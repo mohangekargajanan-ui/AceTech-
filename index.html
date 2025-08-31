@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AceTech+</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body class="bg-gray-900 text-white font-sans">
+  <!-- Navbar -->
+  <header class="fixed w-full bg-gray-800 bg-opacity-90 backdrop-blur-md z-50 shadow-lg">
+    <div class="container mx-auto flex justify-between items-center py-4 px-6">
+      <h1 class="text-2xl font-bold text-indigo-400">AceTech+</h1>
+      <nav>
+        <ul class="flex space-x-6">
+          <li><a href="#solutions" class="hover:text-indigo-400 transition">Solutions</a></li>
+          <li><a href="#services" class="hover:text-indigo-400 transition">Services</a></li>
+          <li><a href="#contact" class="hover:text-indigo-400 transition">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="h-screen flex flex-col justify-center items-center bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 text-center px-6">
+    <h2 class="text-5xl font-extrabold mb-4 text-indigo-400">AceTech+</h2>
+    <p class="text-xl text-gray-300 mb-8">One stop solution for industrial needs</p>
+    <a href="#solutions" class="px-6 py-3 bg-indigo-500 text-white rounded-lg shadow-lg hover:bg-indigo-600 transition transform hover:scale-105">Explore Solutions</a>
+  </section>
+
+  <!-- Solutions Section -->
+  <section id="solutions" class="py-20 container mx-auto px-6">
+    <h3 class="text-3xl font-bold text-center mb-12">Our Solutions</h3>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="bg-gray-800 p-6 rounded-2xl shadow-lg hover:scale-105 transition">
+        <img src="https://source.unsplash.com/400x250/?pipes,factory" class="rounded mb-4" alt="Piping Solutions">
+        <h4 class="text-xl font-semibold mb-2 text-indigo-400">Piping Solutions</h4>
+        <p>Metallic & Non-Metallic (PP, HDPE, PVC, CPVC, SS)</p>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-2xl shadow-lg hover:scale-105 transition">
+        <img src="https://source.unsplash.com/400x250/?instrumentation,engineering" class="rounded mb-4" alt="Instrumentation">
+        <h4 class="text-xl font-semibold mb-2 text-indigo-400">Instrumentation</h4>
+        <p>Pressure, Flow & Level Indicators, Sensors, Transmitters</p>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-2xl shadow-lg hover:scale-105 transition">
+        <img src="https://source.unsplash.com/400x250/?industrial,tank" class="rounded mb-4" alt="Tanks & Equipment">
+        <h4 class="text-xl font-semibold mb-2 text-indigo-400">Tanks & Equipment</h4>
+        <p>FRP Tanks, Pumps, Gaskets</p>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-2xl shadow-lg hover:scale-105 transition">
+        <img src="https://source.unsplash.com/400x250/?valves,engineering" class="rounded mb-4" alt="Valves">
+        <h4 class="text-xl font-semibold mb-2 text-indigo-400">Valves & Accessories</h4>
+        <p>Valves, Strainers, Filters</p>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-2xl shadow-lg hover:scale-105 transition">
+        <img src="https://source.unsplash.com/400x250/?water,plant" class="rounded mb-4" alt="Water Treatment">
+        <h4 class="text-xl font-semibold mb-2 text-indigo-400">Water Treatment</h4>
+        <p>RO Plants, UV Systems, DM Plants</p>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-2xl shadow-lg hover:scale-105 transition">
+        <img src="https://source.unsplash.com/400x250/?repair,maintenance" class="rounded mb-4" alt="Services">
+        <h4 class="text-xl font-semibold mb-2 text-indigo-400">Services</h4>
+        <p>Repair, Retrofit & Maintenance for all industrial equipment</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="py-20 bg-gray-800">
+    <div class="container mx-auto px-6 text-center">
+      <h3 class="text-3xl font-bold mb-6 text-indigo-400">Why Choose AceTech+</h3>
+      <p class="text-gray-300 max-w-2xl mx-auto">We deliver cutting-edge industrial solutions, reliable equipment, and round-the-clock support to keep your operations running smoothly and efficiently.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 container mx-auto px-6">
+    <h3 class="text-3xl font-bold text-center mb-12">Get in Touch</h3>
+    <form class="max-w-2xl mx-auto bg-gray-800 p-8 rounded-2xl shadow-lg mb-12">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+        <input type="text" placeholder="Name" class="p-3 rounded bg-gray-700 text-white focus:outline-none">
+        <input type="email" placeholder="Email" class="p-3 rounded bg-gray-700 text-white focus:outline-none">
+      </div>
+      <textarea placeholder="Message" rows="5" class="w-full p-3 rounded bg-gray-700 text-white focus:outline-none mb-6"></textarea>
+      <button class="px-6 py-3 bg-indigo-500 rounded-lg hover:bg-indigo-600 transition w-full">Send Message</button>
+    </form>
+
+    <!-- Google Maps Embed -->
+    <div class="max-w-4xl mx-auto rounded-2xl overflow-hidden shadow-lg">
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.228516480871!2d-122.41941528468125!3d37.77492927975985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c5cbd8b01%3A0x82a8f5e9b4f0eced!2sSan%20Francisco!5e0!3m2!1sen!2sus!4v1685362893730!5m2!1sen!2sus" 
+        width="100%" 
+        height="400" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 py-6 text-center text-gray-400">
+    <p>© 2025 AceTech+. All rights reserved.</p>
+  </footer>
+
+  <script>
+    ScrollReveal().reveal('section', { delay: 200, distance: '50px', origin: 'bottom', duration: 800, reset: true });
+  </script>
+</body>
+</html>
